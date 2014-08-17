@@ -4,7 +4,7 @@ module FibonnaciSum
 
 let rec sum total = function
     | [] -> total
-    | hd :: tl -> sum (hd + total) tl
+    | head :: tail -> sum (head + total) tail
 
 let rec fibToN = function
  | 1 -> 0

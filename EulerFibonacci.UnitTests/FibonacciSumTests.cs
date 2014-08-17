@@ -114,7 +114,7 @@ namespace EulerFibonacci.UnitTests
         [Test]
         public void FibonacciListForFirstFiveEvenTermsIsCorrect()
         {
-            var fibList = FibonnaciSum.evenTermsFibList(10).ToList();
+            var fibList = FibonnaciSum.evenTermsFibList.ToList();
 
             Assert.AreEqual(new BigInteger(0), fibList[0]);
             Assert.AreEqual(new BigInteger(2), fibList[1]);

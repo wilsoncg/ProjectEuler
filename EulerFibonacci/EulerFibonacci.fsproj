@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FibonnaciSum.fs" />
     <None Include="Script.fsx" />
+    <Compile Include="FermatFactorization.fs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '11.0'">
