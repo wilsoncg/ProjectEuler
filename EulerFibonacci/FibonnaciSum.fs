@@ -1,4 +1,6 @@
 ﻿// Learn more about F# at http://fsharp.net
+// I suffix indicates bigint type (an integer with not upper or lower bounds)
+// http://msdn.microsoft.com/en-us/library/system.numerics.biginteger.aspx
 
 module FibonnaciSum
 
